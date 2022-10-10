@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;  
+  }
+/*các box định hình*/
+.box {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.box1 {
+    width: auto;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.box2 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.box3 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-left: 10px;
+}
+/*các box con*/
+.boxchild1 {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.boxchild2 {
+    width: 60%;
+    float: right;
+    text-align: right;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 40px 0px 0px;
+    position: relative;
+
+}
+
+.boxchild3 {
+    width: 100%;
+    height: 370px;
+    text-align: center;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    position: relative;
+}
+
+.boxchild4 {
+    width: 100%;
+    height: 370px;
+    text-align: center;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    position: relative;
+}
+
+.boxchild5 {
+    width: 100%;
+    height: 370px;
+    text-align: center;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    position: relative;
+}
+
+.boxchild6 {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin: 0% 0% 0% 0%;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+}
+
+.boxchild7 {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin: 0% 0% 0% 0%;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+}
+
+.boxchild8 {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin: 0% 0% 0% 0%;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+}
+/*ngăn không cho tràn box con xuống dưới*/
+.clearfloat {
+    clear: both;
+}
+/*chữ nằm trên ảnh banner*/
+#banner {
+    position: relative;
+    height: 500px;
+}
+
+.content {
+    position: absolute;
+    padding: 11% 5%;
+}
+/*màu nền*/
+#imagelist {
+    background-attachment: fixed;
+    background-color: #efefef;
+}
+
+#footer {
+    background-attachment: fixed;
+    background-color: #f7f7f7;
+}
+/*định dạng text*/
+.lienket a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 5px 15px 5px;
+    font-family: 'Merriweather';
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+h1 {
+    font-family: 'Lobster';
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    color: #424242;
+}
+
+h3 {
+    font-family: 'Volkhov';
+    font-size: 23px;
+    color: black;
+    font-weight: 900;
+}
+
+h1+p {
+    font-family: 'Lobster';
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+h2+p {
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    color: black;
+}
+
+h3+p {
+    font-family: 'Saira';
+    font-size: 20px;
+    color: black;
+}
+
+a>p {
+    font-family: 'Merriweather';
+    font-size: 20px;
+    color: #57d2db;
+}
+
+.lheight {
+    line-height: 0.8;
+}
+
+/*style bổ sung trong Project3*/
+.pj3_1 {
+    background: gray;
+}
+
+.pj3_2 {
+    position:relative;
+}
+
+.pj3_col {
+    padding:0px;margin:0px;
+}
+
+.pj3_img {
+    width:310px;
+}
+
+.pj3_plus{
+    padding:0px;
+}
+
+video {
+    width: inherit;
+    position: realtive;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.pj3_plus2 {
+    background-image: url(images/lodging.png);
+    background-size: cover;
+}
+
+.plugin {
+    border:none;overflow:hidden;
+}

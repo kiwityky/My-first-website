@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Assignment 4-Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Local CSS (*)-->
+  <link href="Contact.css" rel="stylesheet">
+  <!--Google Fonts Vietnamese-->
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+    <div class="con1">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="images/welcome.png" class="con2">
+      </div>
+      <div class="column">
+        <form action="index.html">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">City</label>
+          <select id="country" name="country">
+            <option value="australia">Ho Chi Minh</option>
+            <option value="canada">Ha Noi</option>
+            <option value="usa">Da Nang</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something..." class="con3"></textarea>
+          <input type="submit" value="Send">
+          <a href="index.html">
+            <input type="submit" value="Back">
+          </a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+body,
+h1 {
+    font-family: 'Lobster';
+}
+
+h1 {
+     letter-spacing: 6px
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+.lib1 {
+    max-width: 1500px;
+}
+
+.lib2 {
+    padding: 128px 16px;
+}
+
+.lib3 {
+    margin-bottom: 100px;
+}
+
+.lib4 {
+    width: 100%;
+}

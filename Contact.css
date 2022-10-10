@@ -1,0 +1,89 @@
+html {
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200% 200%;
+}
+
+body {
+font-family: "Merriweather";
+margin: 0px;
+color: rgb(14, 165, 21);
+}
+
+* {
+box-sizing: border-box;
+}
+
+a {
+text-decoration: none;
+}
+
+/* inputs */
+input[type=text],
+select,
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+margin-bottom: 1%;
+border: none;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+/* the container/contact section */
+.container {
+border-radius: 5px;
+padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+float: left;
+width: 50%;
+margin-top: 0px;
+padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - mobile first */
+@media screen and (max-width: 767px) {
+
+.column,
+input[type=submit] {
+width: 100%;
+margin-top: 0;
+}
+}
+
+/* Plus */
+.con1 {
+text-align:center;
+}
+
+.con2 {
+width:100%;
+}
+
+.con3 {
+height:170px;
+}

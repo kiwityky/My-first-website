@@ -1,0 +1,96 @@
+body {
+font-family: 'Saira';
+color: whitesmoke;
+margin-bottom: 10%;
+}
+
+a {
+text-decoration: none;
+}
+
+html {
+box-sizing: border-box;
+background-image: url(images/background2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+h2 {
+font-size: 30px;
+color: rgb(235, 84, 134);
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+.column {
+float: left;
+width: 50%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+margin: 8px;
+}
+
+.about-section {
+padding: 50px;
+text-align: center;
+background-color: #474e5d;
+color: white;
+}
+
+.container {
+padding: 2% 16px;
+background-color: #555;
+}
+
+.container::after,
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: white;
+}
+
+.button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: #555;
+}
+
+/* Responsive layout - mobile first */
+@media screen and (max-width: 767px) {
+.column {
+width: 100%;
+display: block;
+}
+}
+
+/* Plus */
+.fou1 {
+width: 100%;
+}
+
+.fou2 {
+text-align: center;
+}
